@@ -1,0 +1,168 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  text-align: center;
+}
+
+
+header {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  -webkit-box-shadow: 0px 16px 15px 1px rgba(0,0,0,0.4);
+  -moz-box-shadow: 0px 16px 15px 1px rgba(0,0,0,0.4);
+  box-shadow: 0px 16px 15px 1px rgba(0,0,0,0.4);
+}
+
+header a {
+  color: #1C6EA4;
+}
+
+
+#logo {
+  width: 20%;
+  height: 100%;
+  font-size: 2em;
+  margin-top: 10px;
+  margin-left: 10%;
+}
+
+@media (max-width: 1200px) {
+  #logo {
+    width: 20%;
+    font-size: 1.2em;
+  }
+
+}
+
+@media (max-width: 800px) {
+  #logo {
+    width: 20%;
+    font-size: 1.2em;
+  }
+
+}
+
+
+
+@media (max-width: 400px) {
+  #logo {
+    width: 25%;
+  }
+
+}
+
+
+
+main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1C6EA4;
+  border-radius: 15px;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+button {
+  width: 15%;
+  height: 10%;
+  background-color: #418abb;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #367199;
+}
+
+#edycja_produktu {
+  width: 100%;
+  height: 100vh;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#dodaj_foto {
+  width: 70%;
+  height: 15%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+  background-color: white;
+  border: 2px solid rgb(117, 117, 117);
+  border-radius: 15px;
+}
+
+#dodaj_foto button {
+  height: 40%;
+}
+
+#edycja_uzyt {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+#cont {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cont3 button {
+  width: 60%;
+}
+
+#cont2 {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#cont2 button {
+  width: 60%;
+}
+
+#cont3 {
+  width: 100%;
+  height: 10vh;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.to {
+  width: 12%;
+  display: inline-block;
+}
+
+.ten {
+  width: 40%;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.ten:hover {
+  background-color: rgb(122, 122, 122);
+}

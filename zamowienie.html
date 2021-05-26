@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sklep meblowy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="zamowienie.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="fontello/css/fontello.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <div id="logo">Wolano_Sklep</div>
+      </a>
+      <div id="search">
+        <input id="textbox" type="text" placeholder="Wyszukaj . . .">
+        <input id="butt" type="button" value="Szukaj">
+      </div>
+      <div id="basket" title="Koszyk">
+        <a href="koszyk.html">
+          <i class="icon-cart"></i>
+          <p>Koszyk</p>
+        </a>
+      </div>
+      <div id="log_in" title="Zaloguj się">
+        <a href="logowanie.html">
+          <i class="icon-user"></i>
+          <p>Zaloguj się</p>
+        </a>
+      </div>
+      <div id="burger_menu">
+        <a href="#menu">
+          <i class="icon-menu"></i>
+          <p>Menu</p>
+        </a>
+      </div>
+    </header>
+
+    <div id="menu">
+      <div id="inside">
+        <div id="inscription">
+          <h2>Menu</h2>
+        </div>
+        <div id="close" title="close">
+          <h2>X</h2>
+        </div>
+        <div id="search2">
+          <input id="textbox2" type="text" placeholder="Wyszukaj . . .">
+        </div>
+        <div id="navigation">
+          <ul>
+            <li>Laptopy i Komputery</li>
+            <li>Akcesoria</li>
+            <li>Podzespoły</li>
+            <li>Urządzenia Peryferyjne</li>
+            <li>Gaming i Streaming</li>
+          </ul>
+        </div>
+        <h4>Pomoc</h4>
+      </div>
+    </div>
+
+    <nav>
+      <ol>
+        <li>
+          <a href="#">Laptopy i Komputery</a>
+          <ul>
+            <li>Laptop 2 w 1</li>
+            <li>Notebooki</li>
+            <li>Komputer Stacjonarny</li>
+            <li>Torby</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Akcesoria</a>
+          <ul>
+            <li>Myszki</li>
+            <li>Klawiatury</li>
+            <li>Monitor</li>
+            <li>Słuchawki</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Podzespoły</a>
+          <ul>
+            <li>Procesor</li>
+            <li>Płyta główna</li>
+            <li>Pamięć Ram</li>
+            <li>Karta Graficzna</li>
+            <li>Dysk</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Urządzenia Peryferyjne</a>
+          <ul>
+            <li>Pendrive</li>
+            <li>Drukarki</li>
+            <li>Urządzenia sieciowe</li>
+          </ul>
+        </li>
+        <li>
+          <a href="#">Gaming i Streaming</a>
+          <ul>
+            <li>Gry</li>
+            <li>Konsole</li>
+            <li>Fotele</li>
+          </ul>
+        </li>
+      </ol>
+    </nav>
+    <main>
+      <div id="container">
+        <div id="dane">
+          <h4>Dane</h4>
+          <p>Imie: <input type="text" placeholder="imie"></p>
+          <p>Nazwisko: <input type="text" placeholder="nazwisko"></p>
+          <p>Adres e-mail: <input type="text" placeholder="mail"></p>
+        </div>
+        <div id="adres">
+          <h4>Adres</h4>
+          <p>Miejscowość: <input type="text" placeholder="miejscowość"></p>
+          <p>Ulica i numer domu: <input type="text" placeholder="ulica i numer domu"></p>
+          <p>Kod-pocztowy: <input type="text" placeholder="Kod-pocztowy"></p>
+        </div>
+        <div id="dostawa">
+          <div><h4>Dostawa</h4></div>
+          <div>
+            <input type="radio" id="huey" name="drone" value="huey"
+                   checked>
+            <label for="huey">Do domu</label>
+            <p>Cena 15,00 zł</p>
+          </div>
+          
+          <div>
+            <input type="radio" id="dewey" name="drone" value="dewey">
+            <label for="dewey">Do paczkomatu</label>
+            <p>Cena 10,00 zł</p>
+          </div>
+          
+          <div>
+            <input type="radio" id="louie" name="drone" value="louie">
+            <label for="louie">Odbiór osobisty</label>
+            <p>Cena 0,00 zł</p>
+          </div>
+        </div>
+        <div id="platnosc">
+          <div><h4>Płatność</h4></div>
+          <div>
+            <input type="radio" id="huey" name="ten" value="huey"
+                   checked>
+            <label for="huey">Przy odbiorze</label>
+          </div>
+          
+          <div>
+            <input type="radio" id="dewey" name="ten" value="dewey">
+            <label for="dewey">Kartą</label>
+          </div>
+
+        </div>
+      </div>
+      <div id="container2">
+        <h2>Podsumowanie</h2>
+        <p>Cena końcowa: 689,00 zł</p>
+        <button>Dokonaj zakupu</button>
+      </div>
+    </main>
+  </body>
+</html>

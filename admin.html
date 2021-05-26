@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sklep komputerowy</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="admin.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link href="fontello/css/fontello.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <div id="logo">Wolano_Sklep</div>
+      </a>
+    </header>
+    
+    <main>
+      <div id="edycja_produktu">
+        <h1>Dodawanie produktu</h1>
+        <div id="dodaj_foto">
+          <p>
+            Przeciągnij tu zdjęcie lub wybierz folder
+          </p>
+          <button>Wybierz</button>
+        </div>
+        <h2>Dane produktu, który chcesz dodać</h2>
+        <p>Opis produktu</p>
+        <textarea rows="5" cols="33" placeholder="Tutaj wpisz dane..."></textarea>
+        <p>Index: <input type="text"></p>
+        <p>Ilość: <input type="number"></p>
+        <p>Cena: <input type="number"></p>
+        <p>Kategorie: </p>
+        <div>
+          <input type="radio" id="huey" name="drone" value="huey"
+                 checked>
+          <label for="huey">Komputer</label>
+        </div>
+        
+        <div>
+          <input type="radio" id="dewey" name="drone" value="dewey">
+          <label for="dewey">Laptop</label>
+        </div>
+        
+        <div>
+          <input type="radio" id="louie" name="drone" value="louie">
+          <label for="louie">Akcesoria</label>
+        </div>
+        <button><a href="index.html">Dodaj produkt</a></button>
+        <button>Edytuj jakiś produkt</button>
+        <button>Usuń</button>
+      </div>
+      </div>
+      <div id="edycja_uzyt">
+        <h1>Edycja użytkowników</h1>
+        <div id="cont">
+          <div class="to"><p>ID</p></div>
+          <div class="to"><p>Imie</p></div>
+          <div class="to"><p>Nazwisko</p></div>
+          <div class="to"><p>Adres e-mail</p></div>
+          <div class="to"><p>profil</p></div>
+          <div class="to"><p>Włączone</p></div>
+          <div class="to"><p>Akcje</p></div>
+        </div>
+        <div id="cont2">
+          <div class="to"><input type="text" placeholder="Search ID"></div>
+          <div class="to"><input type="text" placeholder="Search First name"></div>
+          <div class="to"><input type="text" placeholder="Search last name"></div>
+          <div class="to"><input type="text" placeholder="Search e-mail"></div>
+          <div class="to"><input type="text"></div>
+          <div class="to"><input type="text"></div>
+          <div class="to"><button>Szukaj</button></div>
+        </div>
+        <div id="cont3">
+          <div class="to"><p>1</p></div>
+          <div class="to"><p>Jan</p></div>
+          <div class="to"><p>Wolan</p></div>
+          <div class="to"><p>jw.wolan@gmail.com</p></div>
+          <div class="to"><p>Administrator</p></div>
+          <div class="to"><p>Tak</p></div>
+          <div class="to">
+            <button>Edytuj</button>
+            <button>Opcje</button>
+          </div>
+        </div>
+        
+      </div>
+    </main>
+  </body>
+</html>
